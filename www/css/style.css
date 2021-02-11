@@ -1,0 +1,53 @@
+*
+{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+body
+{
+  background-color: lightblue;
+}
+
+header
+{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 15vh;
+}
+
+article
+{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column;
+  height: 200px;
+}
+
+.txtNumber
+{
+  width: 80%;
+  height: 35px;
+  border-radius: 10px;
+}
+
+#btnSomar, #btnAtualizar
+{
+  width: 80%;
+  height: 35px;
+  border-radius: 10px;
+  font-size: 12pt;
+}
+
+footer
+{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 50vh;
+}
